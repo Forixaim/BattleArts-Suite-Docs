@@ -13,7 +13,7 @@ const Home:NextPage = () => {
       </div>
       <div className="inline-block m-8 text-xl">
         {homeInfo.map(
-          (content, index) =>
+          (content) =>
           {
             return (
               <div key={content.key} className="m-4">

@@ -25,7 +25,7 @@ const ExCapDocs:NextPage = () =>
             </header>
             <div className="p-16 text-6xl flex items-center justify-center w-full">
                 <h1 className={excapModule.title}>
-                    Hi
+                    ExCap Documentation
                 </h1>
             </div>
             <div className="m-8 p-4 bg-slate-700 rounded-xl">

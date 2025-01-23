@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { JSX } from "react";
+import React from "react";
 
 const NavBarElement = (props:any) =>
 {
