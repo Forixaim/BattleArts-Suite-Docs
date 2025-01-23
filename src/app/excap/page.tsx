@@ -1,7 +1,6 @@
 import { NextPage } from "next";
 import NavBar from "@/components/navbar";
 import excapModule from "./excap.module.css"
-import localization from "@/data/localization";
 
 const code = (name:string, description:string) => 
 {
