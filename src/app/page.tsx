@@ -1,5 +1,4 @@
 import { NextPage } from "next";
-import Image from "next/image";
 import NavBar from "../components/navbar"
 import homeInfo from "@/data/home";
 
