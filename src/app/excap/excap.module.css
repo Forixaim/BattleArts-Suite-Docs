@@ -1,0 +1,20 @@
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(-16%); }
+    100% { opacity: 1; transform: translateX(0);}
+  }
+
+.title
+{
+    @apply text-6xl;
+    animation: fadeIn 500ms;
+}
+
+.methods
+{
+    animation: fadeIn 500ms;
+}
+
+.code {
+    @apply bg-neutral-700 px-4;
+    font-family: 'Cascadia Mono', 'Courier New', Courier, monospace
+}
