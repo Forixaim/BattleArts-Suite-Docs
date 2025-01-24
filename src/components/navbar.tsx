@@ -1,5 +1,6 @@
 import React from "react";
 import NavBarElement from "./navbarelement";
+import LanguageElement from "./language";
 
 const NavBar = () => {
     return ( <div className="h-16 dark:bg-neutral-900 bg-neutral-400 flex">
@@ -11,7 +12,7 @@ const NavBar = () => {
                 ExCap Wiki
             </NavBarElement>
         </ul>
-        
+        <LanguageElement/>
     </div>)
 }
 
